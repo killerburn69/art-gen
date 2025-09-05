@@ -9,13 +9,13 @@ import Collection from "./components/Main/Collection";
 
 export default function Home() {
   return (
-    <div className="pt-[80px] overflow-hidden">
+    <div className="pt-[80px] overflow-hidden px-4">
       <Hero/>
       <Excess/>
       <ShowTheBest/>
       <ArtistPlatform/>
       <Review/>
-      <Collection/>
+      {/* <Collection/> */}
     </div>
   );
 }

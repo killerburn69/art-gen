@@ -34,13 +34,13 @@ const features = [
 ];
 const Excess = () => {
   return (
-    <div className="relative py-[40px]">
+    <div className="relative py-[40px]  z-[10]">
       <Layout>
         <div className="flex flex-col gap-[20px]">
-          <h2 className="text-center text-[48px] font-semibold leading-[50px]">
+          <h2 className="text-center text-[25px] sm:text-[40px] md:text-[48px] font-semibold md:leading-[50px]">
             Excess <br /> Our Platforms
           </h2>
-          <div className="flex gap-6 p-6 justify-center">
+          <div className="flex gap-6 p-6 justify-center flex-wrap">
             {features.map((f, i) => (
               <div
                 key={i}
@@ -63,8 +63,8 @@ const Excess = () => {
           </div>
         </div>
       </Layout>
-      <div className="absolute w-[425px] h-[425px] left-[-246px] top-0 bg-[#DFFFB9] blur-[160px]"></div>
-      <div className="absolute w-[425px] h-[425px] right-[-246px] top-0 bg-[#DFFFB9] blur-[160px]"></div>
+      <div className="absolute w-[150px] h-[150px]  md:w-[425px] md:h-[425px] left-[-20px] md:left-[-246px] top-[500px] bg-[#DFFFB9] blur-[160px] z-[-1]"></div>
+      <div className="absolute w-[150px] h-[150px]  md:w-[425px] md:h-[425px] right-[-20px]  md:right-[-246px] top-[700px] bg-[#DFFFB9] blur-[160px] z-[-1]"></div>
     </div>
   );
 };
