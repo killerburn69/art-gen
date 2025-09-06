@@ -5,10 +5,10 @@ import Image from "next/image";
 
 const ArtistPlatform = () => {
   return (
-    <div className="relative py-[80px] z-[10]">
+    <div className="relative py-[20px] md:py-[80px] z-[10]">
       <Layout>
         <div className="flex flex-col-reverse md:grid grid-cols-2 gap-10 md:gap-1.5 items-center">
-          <div className="max-w-xl mx-auto flex flex-col gap-2.5">
+          <div className="w-full md:max-w-xl mx-auto flex flex-col gap-2.5">
             <div className="bg-[#F8FBFD] hover:bg-[#F6BE2B] transition-all duration-150 rounded-2xl shadow px-5 py-3 flex items-center gap-2.5">
               <div className="size-[55px] md:size-[70px] rounded-full overflow-hidden">
                 <Image

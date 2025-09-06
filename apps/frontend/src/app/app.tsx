@@ -20,7 +20,7 @@ const App = ({ children }: IApp) => {
         <RainbowKitProvider>
           <Navbar/>
           {children}
-          {/* <Footer/> */}
+          <Footer/>
         </RainbowKitProvider>
       </QueryClientProvider>
     </WagmiProvider>

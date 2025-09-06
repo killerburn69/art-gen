@@ -12,32 +12,32 @@ import Image from "next/image";
 
 const Review = () => {
   return (
-    <div className="py-[80px]">
+    <div className="py-[20px] md:py-[80px]">
       <Layout>
         <Carousel className="w-full">
           <CarouselContent className="">
             {Array.from({ length: 5 }).map((_, index) => (
               <CarouselItem key={index}>
                 <div className="p-1">
-                  <Card className="h-[400px] bg-transparent! shadow-none! border-none!">
+                  <Card className="h-full md:h-[400px] bg-transparent! shadow-none! border-none!">
                     <CardContent className="h-full">
                       <div className="flex justify-end w-full h-full">
-                        <div className="relative w-[65%] h-full bg-[#F3F5F7] flex flex-col items-center justify-center rounded-4xl shadow-lg">
-                          <div className="w-[400px]">
-                            <span className="text-[#F6BE2B] text-[20px] font-medium">
+                        <div className="relative p-10 w-full md:w-[65%] h-full bg-[#F3F5F7] flex flex-col items-center justify-center rounded-4xl shadow-lg">
+                          <div className="max-w-[400px]">
+                            <span className="text-[#F6BE2B] text-base md:text-[20px] font-medium">
                               Top #1 3D Artist
                             </span>
-                            <h4 className="text-[48px] font-bold">
+                            <h4 className="text-[25px] md:text-[40px] lg:text-[48px] font-bold">
                               William Maher
                             </h4>
-                            <p className="text-[18px] text-[#808080]">
+                            <p className="text-sm md:text-lg text-[#808080]">
                               the best platform I've ever visited, here I can
                               reach a wider market and with attractive
                               competitors. the many communities here make the
                               platform more lively. and more importantly.
                             </p>
                           </div>
-                          <div className="size-[80px] rounded-2xl bg-[#F6BE2B] flex items-center justify-center absolute -top-6 right-40">
+                          <div className="flex size-[60px] rounded-2xl bg-[#F6BE2B] items-center justify-center absolute -top-6 right-10 md:right-40">
                             <Image
                               src={"/images/tick.svg"}
                               alt="icon"
@@ -45,7 +45,7 @@ const Review = () => {
                               height={40}
                             />
                           </div>
-                          <div className="size-[400px] rounded-2xl bg-[#F6BE2B] absolute -top-7 -left-[300px] overflow-hidden">
+                          <div className="hidden md:block size-[400px] rounded-2xl bg-[#F6BE2B] absolute -top-7 -left-[300px] overflow-hidden">
                             <Image
                               src={"/images/imgHero.jpg"}
                               alt="icon"

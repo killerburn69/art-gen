@@ -7,10 +7,10 @@ import { ArrowRight } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="py-[40px]">
+    <footer className="py-[40px] px-4 md:px-0">
       <Layout>
         <div>
-          <div className="grid grid-cols-4 justify-items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-start lg:justify-items-center gap-3.5">
             <div className="flex flex-col gap-3">
               <div>
                 <Image
@@ -23,7 +23,7 @@ const Footer = () => {
               <p className="text-[#343434]">Get the latest ArtGen.io updates</p>
               <div className="h-[60px] flex items-center border w-fit rounded-lg">
                 <Input
-                  className="h-full w-[300px] border-none shadow-none focus-visible:ring-transparent"
+                  className="h-full w-full max-w-[300px] border-none shadow-none focus-visible:ring-transparent"
                   placeholder="Enter Your Email"
                 />
                 <Button className="size-[60px] bg-[#FFCA42] hover:bg-[#FFCA42]">

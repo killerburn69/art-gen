@@ -6,8 +6,8 @@
 [1G[0K   [1m[38;2;173;127;168m▲ Next.js 15.5.2[39m[22m (Turbopack)
 
  [37m[1m [22m[39m Creating an optimized production build ...
- ✓ Finished writing to disk in 93ms
- [32m[1m✓[22m[39m Compiled successfully in 6.0s
+ ✓ Finished writing to disk in 175ms
+ [32m[1m✓[22m[39m Compiled successfully in 6.3s
 [?25l [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G[?25h [37m[1m [22m[39m Linting and checking validity of types     [32m[1m✓[22m[39m Linting and checking validity of types 
 [?25l [37m[1m [22m[39m Collecting page data  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting page data  [36m..[39m[2K[1G[?25h [37m[1m [22m[39m Collecting page data     [32m[1m✓[22m[39m Collecting page data 
 [?25l [37m[1m [22m[39m Generating static pages (0/5)  [36m[    ][39m[2K[1G [37m[1m [22m[39m Generating static pages (0/5)  [36m[=   ][39m[2K[1G [37m[1m [22m[39m Generating static pages (0/5)  [36m[==  ][39m[2K[1G[?25h [32m[1m✓[22m[39m Generating static pages (5/5)
@@ -15,20 +15,20 @@
 [2K[1G[?25h [37m[1m [22m[39m Finalizing page optimization     [32m[1m✓[22m[39m Finalizing page optimization 
 
 [4mRoute (app)[24m                         [4mSize[24m  [4mFirst Load JS[24m  [4m[24m  [4m[24m
-┌ ○ /                            35.9 kB         [37m[1m360 kB[22m[39m
-└ ○ /_not-found                      0 B         [37m[1m324 kB[22m[39m
-+ First Load JS shared by all     [37m[1m337 kB[22m[39m
+┌ ○ /                            9.52 kB         [37m[1m360 kB[22m[39m
+└ ○ /_not-found                      0 B         [37m[1m350 kB[22m[39m
++ First Load JS shared by all     [37m[1m364 kB[22m[39m
+  ├ chunks/040e98344e39ef55.js   92.5 kB
   ├ chunks/1684b13363cfd30f.js   59.2 kB
   ├ chunks/4ac3c1de48f1a276.js   17.8 kB
   ├ chunks/57f011a6ccf19d04.js   20.6 kB
+  ├ chunks/5a1fbacb32eaff2c.js   41.8 kB
   ├ chunks/6a60cbdd7cd5f2ee.js   23.1 kB
   ├ chunks/70590dd9ddf9fd9b.js   11.6 kB
   ├ chunks/70a568a7448707c3.js   20.5 kB
-  ├ chunks/b3d4fa0f81f3921f.js   15.3 kB
   ├ chunks/bbf89c5280eb1f0c.js   17.3 kB
   ├ chunks/be4afef18adb8c01.js   28.3 kB
-  ├ chunks/f3c07650164c7d06.js   92.7 kB
-  ├ chunks/615bb1ea7deebef7.css  13.1 kB
+  ├ chunks/48cd14f3f46386ba.css  13.6 kB
   └ other shared chunks (total)  17.5 kB
 
 

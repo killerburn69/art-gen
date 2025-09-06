@@ -5,7 +5,7 @@ import CardSwap, { Card } from "@/reactbits/CardSwap/CardSwap";
 import Image from "next/image";
 const ShowTheBest = () => {
   return (
-    <div className="relative pt-[40px] pb-[100px] z-[10]">
+    <div className="relative py-[20px] md:py-[80px] z-[10]">
       <Layout>
         <div className="grid grid-cols-1 md:grid-cols-2 items-center">
           <div className="flex flex-col items-center gap-2.5 max-w-xl mx-auto">

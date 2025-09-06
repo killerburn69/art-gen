@@ -34,7 +34,7 @@ const features = [
 ];
 const Excess = () => {
   return (
-    <div className="relative py-[40px]  z-[10]">
+    <div className="relative py-[20px] md:py-[80px]  z-[10]">
       <Layout>
         <div className="flex flex-col gap-[20px]">
           <h2 className="text-center text-[25px] sm:text-[40px] md:text-[48px] font-semibold md:leading-[50px]">
